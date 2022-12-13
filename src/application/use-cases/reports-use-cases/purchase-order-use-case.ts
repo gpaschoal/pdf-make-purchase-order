@@ -70,7 +70,7 @@ class PurchaseOrderUseCase implements UseCaseInterface<PurchaseOrderCommand, voi
     const printer = new PdfMake(fonts)
 
     var pdfDoc = printer.createPdfKitDocument(docDefinition);
-    pdfDoc.pipe(fs.createWriteStream('pdfs/tables.pdf'));
+    pdfDoc.pipe(fs.createWriteStream('temp.pdf'));
     pdfDoc.end();
   }
 }
