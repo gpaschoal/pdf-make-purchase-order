@@ -1,0 +1,40 @@
+{
+  "order_purchase_id": 9862,
+  "customer": {
+    "id": 875,
+    "name": "Jeffrey Hetfield",
+    "document_number": "88808015000121",
+    "addresses": [
+      {
+        "street": "Av Brazuca",
+        "number": "654B",
+        "neighborhood": "Vila Cezamo",
+        "city": "Sao Jose do Rio Preto",
+        "state": "Sao Paulo",
+        "country": "Brazil",
+        "is_principal": true
+      },
+      {
+        "street": "Av 31 de Maio",
+        "number": "518",
+        "neighborhood": "Vila Brasil",
+        "city": "Sao Paulo",
+        "state": "Sao Paulo",
+        "country": "Brazil",
+        "is_principal": false
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": 872223535,
+      "name": "SAC PDV 986",
+      "quantity": 96
+    },
+    {
+      "id": 5235452345,
+      "name": "PluggSim Concili.",
+      "quantity": 4
+    }
+  ]
+}
